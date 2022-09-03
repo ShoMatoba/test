@@ -48,6 +48,24 @@ def test_make_judge_no5():
                         100, 100, 100, 100, 100]) 
     assert result == 3
 
+def test_make_judge_no6():
+    """マトリックスNo6 ←テストを行うマトリックスの番号
+    成績がEの場合
+
+    """
+    result = make_judge('X', [11, 12, 56, 100, 100,
+                        100, 100, 100, 100, 100]) 
+    assert result == 3
+
+def test_make_judge_no7():
+    """マトリックスNo7 ←テストを行うマトリックスの番号
+    成績がEの場合
+
+    """
+    result = make_judge('Y', [11, 12, 56, 100, 100,
+                        100, 100, 100, 100, 100]) 
+    assert result == 3
+
 
 
 
